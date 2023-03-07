@@ -1,0 +1,119 @@
+/* styling body h1 and p: done */
+
+body {
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1,
+p {
+    font-family: "Poppins", "sans-serif";
+    text-align: center;
+    color: #f3f3f3;
+    font-weight: 1;
+    text-shadow: 1px 1px 2px rgba(17, 16, 16, 0.7);
+}
+
+#title {
+    font-size: 32px;
+    height: 38px;
+}
+
+#description {
+    font-size: 18px;
+    font-style: italic;
+}
+
+form {
+    background-color: #242444;
+    box-sizing: border-box;
+    color: #f3f3f3;
+    min-width: 300px;
+    max-width: 740px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+fieldset {
+    border: none;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 95%;
+    min-height: 2.5em;
+    border: 0;
+    border-radius: 7px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.3em 0 0;
+    vertical-align: middle;
+}
+
+label {
+    display: block;
+    margin: 20px 10px;
+    font-size: 18px;
+    align-items: center;
+}
+
+input {
+    display: inline-block;
+    font-weight: 1.2;
+}
+
+input[type="checkbox"] {
+    margin: 0 0 -15px 0;
+    vertical-align: middle;
+    position: relative;
+    bottom: 0.5em;
+}
+
+input[type="radio"] {
+    margin: 0 0 -15px 0;
+    vertical-align: middle;
+    position: relative;
+    bottom: 0.5em;
+}
+
+input[type="submit"] {
+    align-items: center;
+    width: 680px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: larger;
+    margin-top: -20px;
+    background-color: rgb(99, 141, 127);
+    transition: 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+textarea {
+    margin: 15px 8px;
+    padding-top: 15px;
+}
+
+fieldset:nth-child(2) {
+    margin-top: -20px
+}
+
+select {
+    color: #747485;
+    align-items: center;
+    padding-top: 10px;
+    font-weight: lighter;
+    width: 98%;
+    cursor: pointer;
+}
